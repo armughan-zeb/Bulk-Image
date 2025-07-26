@@ -18,7 +18,7 @@ if st.button("Generate Images"):
         os.makedirs("outputs", exist_ok=True)
         for i in range(num_images):
             response = requests.post(api_url, json={
-                "key": "YOUR_API_KEY",  # 👈 REPLACE THIS
+                "key": "Qm9xcyW9TMIF5BdxtqkEJJbtoMNyBfPZbjdRJmxO5PDExjwUtLSfR9EkLtqh",  # 👈 REPLACE THIS
                 "prompt": prompt,
                 "width": "512",
                 "height": "512",
